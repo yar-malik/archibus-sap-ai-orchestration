@@ -1,0 +1,14 @@
+# Never commit credentials.
+.env
+.env.local
+*.pem
+*.key
+
+node_modules/
+__pycache__/
+.venv/
+venv/
+*.mp3
+*.wav
+*.ogg
+.DS_Store

@@ -1,0 +1,24 @@
+{
+  "name": "archibus-sap-ai-orchestration",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Connect Archibus, SAP, building management and IoT sensors so one spoken request \u2014 or one sensor reading \u2014 reaches all of them.",
+  "scripts": {
+    "start": "node examples/node/index.mjs",
+    "stream": "node examples/node/stream.mjs"
+  },
+  "keywords": [
+    "saudi-arabia",
+    "arabic",
+    "archibus",
+    "sap",
+    "facilities-management",
+    "iot",
+    "smart-cities",
+    "bms",
+    "cafm",
+    "enterprise-ai"
+  ],
+  "license": "MIT"
+}
