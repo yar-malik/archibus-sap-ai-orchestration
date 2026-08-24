@@ -8,14 +8,33 @@ or English reaches every one of them, and the work is filed properly in the
 system that owns it.
 
 <p align="center">
-  <a href="https://voho.ai/demos/smart-cities">
+  <a href="https://voho.ai/demos/smart-buildings-cities">
     <img src="docs/demo.png" alt="A water sensor reading starting one chain of work across the building controls, Archibus and SAP — the job raised, the team called, and escalation if nobody answers" width="900">
   </a>
 </p>
 
 <p align="center">
-  <b><a href="https://voho.ai/demos/smart-cities">▶ Play the live demo</a></b> — runs in your browser, no sign-up.
+  <b><a href="https://voho.ai/demos/smart-buildings-cities">▶ Play the live demo</a></b> — runs in your browser, no sign-up.
 </p>
+
+<!-- voho:try -->
+## Try it in your browser first
+
+You do not have to clone anything to see whether this works for you. The same
+engine this repository calls is running at **[app.voho.ai/smart-buildings-cities](https://app.voho.ai/smart-buildings-cities)** —
+Turn a fault report into a work order, in the browser, in about a minute.
+
+New accounts start with **$25 of credit**, and one balance and one API key
+cover every Voho product: Smart Buildings & Cities, and the five beside it.
+
+- **[Turn a fault report into a work order →](https://app.voho.ai/smart-buildings-cities)**
+- [Get an API key](https://app.voho.ai/tokens) — the key this repository needs
+- [Read the API docs](https://docs.voho.ai)
+
+Running it inside your own estate, against your own systems, is what we do
+with you: [talk to us](https://voho.ai/book-demo).
+
+---
 
 ---
 
@@ -115,12 +134,12 @@ all. Point `VOHO_BASE_URL` at your own deployment and nothing else changes.
 
 | Repository | What it covers | Live demo |
 | --- | --- | --- |
-| [saudi-arabic-voice-agent](https://github.com/yar-malik/saudi-arabic-voice-agent) | Phone agents in Najdi Arabic | [Play it](https://voho.ai/demos/contact-center-ai) |
+| [saudi-arabic-voice-agent](https://github.com/yar-malik/saudi-arabic-voice-agent) | Phone agents in Najdi Arabic | [Play it](https://voho.ai/demos/ai-call-center) |
 | [arabic-document-ai](https://github.com/yar-malik/arabic-document-ai) | Reading Saudi invoices, IDs and contracts | [Play it](https://voho.ai/demos/document-ai) |
-| [arabic-voice-dictation-enterprise](https://github.com/yar-malik/arabic-voice-dictation-enterprise) | Speaking instead of typing | [Play it](https://voho.ai/demos/voice-os) |
-| [arabic-engineering-ai-copilot](https://github.com/yar-malik/arabic-engineering-ai-copilot) | Asking engineering archives | [Play it](https://voho.ai/demos/industrial-copilot) |
-| [saudi-enterprise-ai-agent-platform](https://github.com/yar-malik/saudi-enterprise-ai-agent-platform) | Agents that act in SAP and ServiceNow | [Play it](https://voho.ai/demos/sovereign-agent-platform) |
-| [archibus-sap-ai-orchestration](https://github.com/yar-malik/archibus-sap-ai-orchestration) | Facilities, Archibus, IoT | [Play it](https://voho.ai/demos/smart-cities) |
+| [arabic-voice-dictation-enterprise](https://github.com/yar-malik/arabic-voice-dictation-enterprise) | Speaking instead of typing | [Play it](https://voho.ai/demos/ai-voice-assistant) |
+| [arabic-engineering-ai-copilot](https://github.com/yar-malik/arabic-engineering-ai-copilot) | Asking engineering archives | [Play it](https://voho.ai/demos/engineering-ai) |
+| [saudi-enterprise-ai-agent-platform](https://github.com/yar-malik/saudi-enterprise-ai-agent-platform) | Agents that act in SAP and ServiceNow | [Play it](https://voho.ai/demos/private-enterprise-ai) |
+| [archibus-sap-ai-orchestration](https://github.com/yar-malik/archibus-sap-ai-orchestration) | Facilities, Archibus, IoT | [Play it](https://voho.ai/demos/smart-buildings-cities) |
 
 ## Want this in production?
 
