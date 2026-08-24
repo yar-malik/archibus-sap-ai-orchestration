@@ -3,22 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Connect Archibus, SAP, building management and IoT sensors so one spoken request \u2014 or one sensor reading \u2014 reaches all of them.",
+  "description": "Connect Archibus, SAP, building management and IoT sensors so one spoken request — or one sensor reading — reaches all of them.",
+  "engines": { "node": ">=18" },
   "scripts": {
-    "start": "node examples/node/index.mjs",
-    "stream": "node examples/node/stream.mjs"
+    "start": "node examples/node/index.mjs"
   },
-  "keywords": [
-    "saudi-arabia",
-    "arabic",
-    "archibus",
-    "sap",
-    "facilities-management",
-    "iot",
-    "smart-cities",
-    "bms",
-    "cafm",
-    "enterprise-ai"
-  ],
   "license": "MIT"
 }
