@@ -1,1 +1,3 @@
-requests>=2.31.0
+# Nothing to install — the example uses the standard library only.
+# Python 3.9 or newer:
+#   python examples/python/main.py
