@@ -46,29 +46,30 @@ with you: [talk to us](https://voho.ai/book-demo).
 
 ## Quick start
 
-You need a Voho API key. Create one at [app.voho.ai](https://app.voho.ai) under **API Tokens**.
+One key, one command, about a minute. Get a key at
+[app.voho.ai/tokens](https://app.voho.ai/tokens) — new accounts start with
+**$25 of credit**, which is enough to run this many times over.
 
 ```bash
 git clone https://github.com/yar-malik/archibus-sap-ai-orchestration.git
 cd archibus-sap-ai-orchestration
-cp .env.example .env      # then paste your key into .env
+export VOHO_API_KEY=voho_sk_live_...
 ```
 
-### Node.js
+### Node — no dependencies, Node 18+
 
 ```bash
-npm install
-node examples/node/index.mjs
+npm start
+# or: node examples/node/index.mjs ["the fault, in Arabic or English"]
 ```
 
-### Python
+### Python — no dependencies, Python 3.9+
 
 ```bash
-pip install -r requirements.txt
-python examples/python/main.py
+python examples/python/main.py ["the fault"]
 ```
 
-Both examples turn a spoken Arabic fault report into an Archibus service request.
+Either one turns a tenant reporting a burning smell into a work order: asset, trade, priority, SLA and whether to page the on-call.
 
 ## Arabic voices
 
